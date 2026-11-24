@@ -4,7 +4,7 @@
 
 Fujini combines a Discord bot with a web dashboard for managing content, schedules and server automation across multiple communities. It is a personal product in active development.
 
-**Developer:** [Valerii Okhmak](https://github.com/DONAT1N) · **Focus:** full-stack TypeScript, backend integrations, interactive editors
+**Developer:** [Valerii Okhmak](https://github.com/valerii-okhmak) · **Focus:** full-stack TypeScript, backend integrations, interactive editors
 
 This repository presents the product and its engineering decisions. The application source code is private while development continues toward a commercial release.
 
@@ -23,6 +23,20 @@ Community teams need to prepare announcements, coordinate events and maintain co
 5. Configure supporting automation such as reactions, discussion threads and message collection.
 
 The screenshots below use demonstration data, including fictional account and community names. They illustrate the interface rather than production usage or adoption.
+
+### Landing page
+
+The landing page uses a monochrome palette, large typography, textured backgrounds and paper-like details. It introduces the product through Discord message previews and an automation diagram, then presents plan options and the Discord installation entry point.
+
+![Fujini landing page with the main introduction and Discord installation button](screenshots/landing-hero.webp)
+
+![Landing page sections showing scheduled posts and rich message embeds](screenshots/landing-features.webp)
+
+![Landing page sections illustrating event automation and player ID collection](screenshots/landing-automation.webp)
+
+![Fujini plan comparison and footer showing that paid checkout is currently unavailable](screenshots/landing-plans.webp)
+
+These screens show the product presentation. Paid checkout is not yet available; the plan cards do not indicate a completed payment integration.
 
 ### Visual message builder
 
@@ -69,7 +83,7 @@ Read the [architecture overview](ARCHITECTURE.md) and [engineering case study](C
 
 ## My work
 
-I designed and developed the dashboard, API and Discord bot, including the message editor, shared data contracts, database models, authentication, access control and automation workflows. The project covers product interface design as well as backend and integration work.
+I designed and developed the landing page, dashboard, API and Discord bot, including the message editor, shared data contracts, database models, authentication, access control and automation workflows. The project covers product interface design as well as backend and integration work.
 
 ## Current status
 
