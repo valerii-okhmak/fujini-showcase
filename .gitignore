@@ -1,0 +1,11 @@
+# Only presentation files belong in this repository.
+.env
+.env.*
+node_modules/
+dist/
+*.log
+*.zip
+*.sql
+*.dump
+.local-runtime/
+.tools/
